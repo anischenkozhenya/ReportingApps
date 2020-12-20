@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ReportingApp", "ReportingApp\ReportingApp.csproj", "{F526CBEB-4F26-4614-B573-8ABBD8E59D86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Northwind.ReportingServices.OData", "Northwind.ReportingServices.OData\Northwind.ReportingServices.OData.csproj", "{CA081C0A-486A-40FF-9082-E4E3E10C6178}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96713223-A97D-43C7-A665-85527A5388D5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		code-analysis.ruleset = code-analysis.ruleset
+		stylecop.json = stylecop.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.CurrencyServices", "Northwind.CurrencyServices\Northwind.CurrencyServices.csproj", "{C259B5C6-93E9-46E6-886D-DF3814A76136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F526CBEB-4F26-4614-B573-8ABBD8E59D86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F526CBEB-4F26-4614-B573-8ABBD8E59D86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F526CBEB-4F26-4614-B573-8ABBD8E59D86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F526CBEB-4F26-4614-B573-8ABBD8E59D86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA081C0A-486A-40FF-9082-E4E3E10C6178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA081C0A-486A-40FF-9082-E4E3E10C6178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA081C0A-486A-40FF-9082-E4E3E10C6178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA081C0A-486A-40FF-9082-E4E3E10C6178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C259B5C6-93E9-46E6-886D-DF3814A76136}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C259B5C6-93E9-46E6-886D-DF3814A76136}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C259B5C6-93E9-46E6-886D-DF3814A76136}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C259B5C6-93E9-46E6-886D-DF3814A76136}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B070572C-0C3F-4A6D-89D7-BBAA07E9C919}
+	EndGlobalSection
+EndGlobal

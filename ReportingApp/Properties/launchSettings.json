@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ReportingApp": {
+      "commandName": "Project",
+      "commandLineArgs": " units-in-stock-deficit"
+    }
+  }
+}
